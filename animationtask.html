@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            background-color: rgb(89, 144, 247);
+        }
+        .main {
+
+            box-sizing: border-box;
+        }
+        .form1 {
+            margin-top: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .name {
+            position: relative;
+            padding: 10px 0px;
+            background-color:lightskyblue;
+            border-radius: 15px;
+            width: 35%;
+            text-align: center;
+            opacity: 0.8;
+        }
+        .fa-user {
+            position: absolute;
+            left: 120px;
+            top: 85px;
+            width: 30px;
+            height: 30px;
+        }
+        .fa-lock {
+            position: absolute;
+            left: 120px;
+            top: 140px;
+            width: 30px;
+            height: 30px;
+        }
+
+        .underline {
+            border-bottom: 2px solid white;
+            width: 10px;
+        }
+
+        .name input {
+            border-radius: 30px;
+            border: none;
+            padding: 10px 32px;
+            font-weight: bolder;
+        }
+
+        button {
+            padding: 10px;
+            border-radius: 30px;
+            width: 100px;
+            color: blue;
+            border: none;
+            cursor: pointer;
+            font-weight: bolder;
+        }
+
+        .log {
+            font-size: 19px;
+            color: white;
+        }
+
+        .here {
+            color: lightsalmon;
+            font-size: 19px;
+            cursor: pointer;
+            margin-left: 05px;
+        }
+
+        .up {
+            color: lightsalmon;
+            font-size: 19px;
+            cursor: pointer;
+            margin-left: 05px;
+        }
+
+        .red {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 50%;
+            box-shadow: 10px 10px 100px 150px red;
+            position: absolute;
+            top: 500px;
+            left: 150px;
+        }
+
+        .blue {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border-radius: 50%;
+            box-shadow: 10px 10px 100px 150px aqua;
+            position: absolute;
+            top: 0px;
+            left: 700px;
+        }
+
+        .purple {
+            width: 100px;
+            height: 100px;
+            background-color: purple;
+            border-radius: 50%;
+            box-shadow: 10px 10px 100px 150px purple;
+            position: absolute;
+            top: 400px;
+            right: 0px;
+        }
+        .anione {
+            width: 80px;
+            height: 80px;
+            background-color: aliceblue;
+            position: relative;
+            left: 400px;
+            top: 350px;
+            border-radius: 9px;
+            animation: anione 5s infinite;
+            z-index: 1;
+            opacity: .5;
+        }
+        @keyframes anione {
+            0% {
+                transform: rotate(180deg);
+                left: 400px;
+                right: 350px;
+            }
+            50% {
+                transform: rotate(250deg);
+                left: 300px;
+                right: 0px;
+            }
+            100% {
+                transform: rotate(180deg);
+                left: 400px;
+                right: 350px;
+            }
+        }
+        .anitwo {
+            width: 80px;
+            height: 80px;
+            background-color: aliceblue;
+            position: absolute;
+            left: 1000px;
+            top: 120px;
+            border-radius: 9px;
+            animation: anitwo 5s infinite;
+            z-index: 1;
+            opacity: 0.5;
+        }
+        @keyframes anitwo {
+            0% {
+                transform: rotate(360deg);
+                left: 800px;
+                top:0px;
+            }
+            25%
+            {
+                transform: rotate(360deg);
+                left: 850px;
+                top: 0px;
+            }
+            50% {
+                transform: rotate(290deg);
+                left: 850px;
+                top: 200px;
+            }
+            75% {
+                transform: rotate(290deg);
+                left: 800px;
+                top: 200px;
+            }
+            100% {
+                transform: rotate(200deg);
+                left: 800px;
+                top: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="red"></div>
+        <div class="blue"></div>
+        <div class="purple"></div>
+        <div class="animation">
+            <div class="anione"></div>
+            <div class="anitwo"></div>
+        </div>
+        <div class="form1">
+            <div class="name">
+                <h2 class="form"> <span class="underline"> Login</span> Form </h2>
+                <i class="fa-solid fa-user"></i>
+                <input type="text" value="User Name" placeholder="User Name">
+                <br><br>
+                <i class="fa-solid fa-lock"></i>
+                <input type="text" value="Password" placeholder="Password">
+                <br><br>
+                <button>
+                    Log in
+                </button>
+                <h5 class="here"> <span class="log"> Forgot Password?</span> Click Here </h2>
+                    <h5 class="up"> <span class="log"> Don't have an Account?</span> Sign Up </h2>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

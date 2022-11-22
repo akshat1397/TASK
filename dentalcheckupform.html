@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task.CSS">
+    <style>
+         h2{
+            text-align: center;
+            color: black;
+            background-color:lightcyan;
+        }
+        td{
+            text-align: center;
+            color: black;
+            background-color: lightcyan;
+            height: 50px;
+            width: 10%;
+        }
+        div
+        {
+            background-color: yellow;
+            color: red;
+        }
+        label{
+            text-align: center;
+            color: black;
+            background-color:lightcyan;
+            height: 50px;
+            width: 10%;
+        }
+        fieldset
+        {
+            background-color: lightcyan;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+    <h2><b> DENTAL SCREENING FORM </b></h2>
+    <form method="post">
+        <table border="2">
+            <tr>
+                <td> PARENT/GAURDIAN: </td>
+                <td><input type="text" name="name" pattern="[a-z]{8}"> </td>
+            </tr>
+            <tr>
+                <td> DATE OF BIRTH: </td>
+                <td><input type="date" name="date"></td>
+            </tr>
+            <tr>
+                <td> PREFERNCE FOR FOODS: (LIST FOOD BELOW) </td>
+                <tr>
+                    <td> CULTURAL (AVAILABLE TO YOU): </td>
+                    <td><input type="CULTURAL (AVAILABLE TO YOU)" name="CULTURAL (AVAILABLE TO YOU)"></td>
+                </tr>
+                <tr>
+                    <td> AMERICAN: </td>
+                    <td><input type="AMERICAN" name="AMERICAN"></td>
+                </tr>
+                <tr>
+                    <td> ANY SPECIAL FOOD CRAVING? (LIST FOODS): </td>
+                    <td><textarea name="ANY SPECIAL FOOD CRAVING? (LIST FOODS)"></textarea></td>
+                </tr>
+                <tr>
+                    <td> WHY THIS FOODS?: </td>
+                    <td><textarea name="WHY THIS FOODS"></textarea></td>
+                </tr>
+                <tr>
+                    <td> PLEASE LIST ANY PROBLEMS CHEWING OR SWALLOWING: </td>
+                    <td><textarea name="PLEASE LIST ANY PROBLEMS CHEWING OR SWALLOWING"></textarea></td>
+                </tr>
+                <tr>
+                    <td> CARIE/PRIORITY CLASSIFICATION: </td>
+                </tr>
+                <tr>
+                    <td> (PLEASE CIRCLE ONE)</td>
+                    <td><input type="radio" name="1" value="1">1
+                    <td><input type="radio" name="2" value="2">2
+                    <td><input type="radio" name="3" value="3">3   
+                    <td><input type="radio" name="0" value="0">0
+                </tr>
+                <tr>
+                    <td>PRIORITY CRITERIA</td>
+                    <td><input type="radio" name="PRIORITY 1" value="PRIORITY 1"> IMMIDIATE CARE
+                    <td><input type="radio" name="PRIORITY 2" value="PRIORITY 2"> EXTENSIVE AMOUNT OF DECAY
+                    <td><input type="radio" name="PRIORITY 3" value="PRIORITY 3"> OBIVIOUS CAVITY
+                    <td><input type="radio" name="PRIORITY 0" value="PRIORITY 0"> NO OBVIOUS CAVITY
+                    </td>
+                </tr>
+                <tr>
+                    <td> RECOMMENDATION </td>
+                    <td> <input type="checkbox" name="ATTENTION ASAP" value="ATTENTION ASAP"> ATTENTION ASAP <br>
+                         <input type="checkbox" name="XRAYS" value="XRAYS"> XRAYS <br>
+                         <input type="checkbox" name="FILLINGS" value="FILLINGS"> FILLINGS <br>
+                         <input type="checkbox" name="DENTAL CLEANING" value="DENTAL CLIENAING"> DENTAL CLEANING <br>
+                         <input type="checkbox" name="FACIAL TENDERNESS" value="FACIAL TENDERNESS"> FACIAL TENDERNESS <br>
+                         <input type="checkbox" name="PRONOUNCED LINGUAL" value="PRONOUNCED LINGUAL"> PRONOUNCED LINGUAL <br>
+                         <input type="checkbox" name="UPPER DENTURE" value="UPPER DENTURE"> UPPER DENTURE <br>
+                         <input type="checkbox" name="LOWER DENTURE" value="LOWER DENTURE"> LOWER DENTURE <br>
+                         <input type="checkbox" name="PARTIAL DENTURE" value="PARTIAL DENTURE"> PARTIAL DENTURE <br>
+                         <input type="checkbox" name="LOWER" value="UPPER"> UPPER <br>
+                         <input type="checkbox" name="LOWER" value="LOWER"> LOWER <br>
+                    </td>
+                </tr>
+            
+        </table>
+        <br>
+        <label> DENTIST SIGNATURE:___________________ </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label> DATE: ___________</label> 
+     </form>
+</body>
+</html>
