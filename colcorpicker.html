@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            width: 100px;
+            height: 40px;
+        }
+        button{
+            height: 40px;
+        }
+        .two{
+            width: 300px;
+            height: 300px;
+            background-color: aqua;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <h1> Color Picker</h1>
+        <input type="color" id="setcolor" class="one">
+        <button onclick="color()"> Set COLOUR </button>
+    </div>
+    <br><br><br>
+    <div class="two" id="two"></div>
+</body>
+</html>
+<script>
+   a= document.getElementById("two")
+   b= document.getElementById("setcolor")
+function color()
+{
+    a.style.background = b.value;
+}
+</script>

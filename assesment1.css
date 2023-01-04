@@ -1,9 +1,13 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 body{
     margin: 0px;    
     background-image: url(images/collagegroup.jpg);
     background-repeat: no-repeat;
-    background-size:1900px 900px;
+    background-size:100% 900px;
     backdrop-filter: blur(5px);
 }
 .p{
@@ -11,18 +15,24 @@ body{
     display: flex;
     font-size: 16px;
     font-weight: bold;
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
 }
-img{
-    height: 30px;
+.fa img{
+    height: 25px;
     float: left;
-    left: 1100px;
-    margin-left: 50px;
-    position: relative;
-    top: 10px;
 }
-
+.fa .facebook{
+    margin-left: 700px;
+}
+.fa .instagram{
+    margin-left: 20px;
+}
+.fa .twitter{
+    margin-left: 20px;
+}
 .back{
-   
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -35,10 +45,8 @@ img{
     font-weight: bold;
     display: flex;
     float: left;
-    margin-top: -25px;
 }
 .head1{
-    padding: 10px;
     background-color: #ffffff;
     opacity: 0.7;
     justify-content: center;
@@ -62,241 +70,121 @@ li{
     font-weight: bolder;
     position: relative;
     display: flex;
-    margin-left: 1000px;
-    margin-top: -25px;   
+    margin-left: 570px;
 }
 .des{
     margin-left: 100px;
-    margin-top: 170px;
     font-weight: bolder;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
 }
 .des h5{
     font-size: 20px;
+    padding-top: 15px;
 }
 .des h1{
     font-size: 50px;
+    padding-top: 15px;
 }
 .des p{
     font-size: 20px;
+    padding-top: 15px;
 }
 .button1{
     border-radius: 25px;
     font-size: 25px;
     color:#ffffff;
+    margin-top: 15px;
     background-color: tomato;
-    padding: 10px 12px 15px 27px;   
-    width: 200px; 
+    padding: 10px 10px 15px 30px;   
+    width: 250px; 
 }
-@media only screen and (max-width: 600px)
-{
-    body{
-        margin: 0px;    
-        background-image: url(images/collagegroup.jpg);
-        background-repeat: no-repeat;
-        background-size:600px 900px;
-        backdrop-filter: blur(5px);
-    }
-    .p{
-        background-color:  #000000;
-        display: flex;
-        font-size: 10px;
-        font-weight: bold;
-    }
-    img{
-        height: 15px;
-        float: left;
-        left: 220px;
-        margin-left:10px;
-        position: relative;
-        top: 10px;
-    }
-    .back{
-       
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        background-color: transparent;
-    }
-    .head{
-        font-size:25px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-style: italic;
-        font-weight: bold;
-        display: flex;
-        float: left;
-        margin-top: -25px;
-        
-    }
-    .head1{
-        padding: 10px;
-        background-color: #ffffff;
-        opacity: 0.7;
-        justify-content: center;
-        align-items: center;
-    }
-    a{
-        text-decoration: none;
-        color: black;
-        font-weight: bolder;
-    }
-    li{
-        list-style-type: none;
-        margin: 0;
-        padding:10px 10px;
-    }
-    .menu
-    { 
-        font-size:12px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-style: italic;
-        font-weight: bolder;
-        position: relative;
-        display: inline-block;
-        margin-left: 300px;
-        margin-top: -25px;   
-    }
-    .des{
-        margin-left: 10px;
-        margin-top: -50px;
-        font-weight: bolder;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color: #ffffff;
-        font-size: 12px;
-        text-align: center;
-    }
-    .des h5{
-        font-size: 15px;
-    }
-    .des h1{
-        font-size: 12px;
-    }
-    .des p{
-        font-size: 13px;
-    }
-    .button1{
-        border-radius: 25px;
-        font-size: 12px;
-        color:#ffffff;
-        background-color: tomato;
-        padding: 10px 10px 10px 10px;   
-        width: 100px; 
-        margin-left: 230px;
-    }
-}
+
 .main1{
     z-index: 1;
     position: relative;
-    margin-top: -50px;
     display: flex;
 }
 .education{
     height: 250px;
-    width: 450px; 
+    position: relative;
+    width: 300px; 
     background-color: tomato;
-    margin-left: 100px;
+    margin-left: 120px;
     padding-top: 60px;
     border-radius: 50px;
-    margin-top: 100px;
+    margin-top: 90px;
 }
 .education img{
     width: 50px;
     height:50px; 
-    margin-left: -900px; 
+    position: absolute;
+    margin-left: 110px; 
     margin-top: -50px;
 }
 .education .images{
-    width: 50px; height:50px; margin-left: -900px; margin-top: -50px;
+    width: 50px; height:50px; margin-left: 120px; margin-top: -50px;
 }
 .education .images1{
-    width: 50px; height:50px; margin-left: -900px; margin-top: -50px;
+    width: 50px; height:50px; margin-left: 120px; margin-top: -50px;
 }
 .education .greaterthan{
-    width: 50px; height:50px; margin-left: -1175px; margin-top: 50px; border-radius: 50%;
+    width: 50px; height:50px;  margin-left: -90px; margin-top: 50px; border-radius: 50%;
 }
 .education .lessthan{
-    width: 50px; height:50px; margin-left: -615px; margin-top: -150px; border-radius: 50%;
+    width: 50px; height:50px; margin-left: 320px;  margin-top: -90px; border-radius: 50%;
 }
 .edu1 p{
-    font-size: 20px;
+    font-size: 15px;
     color:#ffffff;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
    
 }
 .edu1 h1{
-    font-size: 40px;
+    font-size: 35px;
     color:#ffffff;
     text-align: center;
+    margin-top: 20px;
 }
-@media only screen and (max-width: 600px)
-{
-    .main1{
-        z-index: 1;
-        position: relative;
-        margin-top:10px;
-        display: flex;
-    }
-    .education{
-        height: 90px;
-        width: 250px; 
-        background-color: tomato;
-        margin-left: 1px;
-        border-radius: 50px;
-        margin-top: 70px;
-    }
-    .education img{
-        width: 30px;
-        height:30px; 
-        margin-left: -135px; 
-    }
-    .education .images{
-        width: 30px; height:30px; margin-left: -135px;
-    }
-    .education .images1{
-        width: 30px; height:30px; margin-left: -135px;
-    }
-    .edu1 p{
-        font-size: 10px;
-        color:#ffffff;
-        text-align: center;
-        margin-top: 10px;
-    }
-    .edu1 h1{
-        font-size: 12px;
-        color:#ffffff;
-        text-align: center;
-    }
-}
+
 .upcoming{
     background-color: black;
-    top:750px;
     width: 100%;
-    position: absolute;
-    height: 1500px;
+    height: 1000px;
+    
 }
 .upcoming h1{
     color: #ffffff;
-    margin-top: 250px;
     text-align: center;
 }
 .line{
-    width: 1300px;
+    width: 100%;
 }
 .meetingcat{
     background-color: #ffffff;
-    height: 540px;
+    height: 720px;
     width: 400px;
     margin-left: 70px;
     position: absolute;
     border-radius: 30px;
-    margin-top: 300px;
+    margin-top: -750px;
 }
 .status{
     color: black;
-    font-size: 25px;  
+    font-size: 30px;  
     text-align: center;
+    padding: 10px 10px 10px 20px;
+}
+.status h5{
+    color: black;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    text-align: center
+}
+.lecture{
+    margin-top:50px;
+    
 }
 .button2{
     border-radius: 25px;
@@ -306,26 +194,26 @@ li{
     padding: 10px 12px 15px 5px;   
     width: 300px;   
     margin-left: 39px;
+    margin-top: 60px;
     font-weight: bolder;
     cursor: pointer;
 }
 .jan{
     background-color: #ffffff;
     height: 350px;
-    width: 420px;
-    margin-left: 750px;
+    width: 350px;
+    margin-left: 450px;
     border-radius: 30px;
-    margin-top: -490px;
+    margin-top: -460px;
     display: flex;
 }
 
 .jan img{
-    width: 420px;
+    width: 350px;
     height: 200px;
     position: absolute;
-    margin-left: -350px;
+    /* margin-left: 70px; */
     z-index: 1;
-    margin-top: -20px;
     border-radius: 30px 30px 0px 0px ;
     
 }
@@ -336,23 +224,25 @@ li{
     background-color: #ffffff;
     font-weight: bolder;
     cursor: pointer;
-    width: 60px;
+    width: 70px;
     height: 20px;
     z-index: 1;
     margin-left: 12px;
-    padding: 15px 12px 15px 10px;   
+    margin-top: 10px;
+    padding: 10px 10px 20px 10px;   
 }
 .nov{
     color: red;
     position: absolute;
-    margin-top: 170px;
+    margin-top: 230px;
     margin-left: 20px;
     text-align: center;
     font-size: 30px;
 }
 .des1{
-    margin-top: 100px;
-    margin-left: 20px;
+    margin-top: 120px;
+    margin-left: 10px;
+    font-size: 14px;
 }
 .des1 h2{
     margin-top: 110px;
@@ -361,20 +251,19 @@ li{
 .jan1{
     background-color: #ffffff;
     height: 350px;
-    width: 420px;
-    margin-left: 1250px;
+    width: 350px;
+    margin-left: 850px;
     border-radius: 30px;
-    margin-top: -360px;
+    margin-top: -350px;
     display: flex;
 }
 
 .jan1 img{
-    width: 420px;
+    width: 350px;
     height: 200px;
     position: absolute;
-    margin-left: 150px;
+    /* margin-left: -70px; */
     z-index: 1;
-    margin-top: -20px;
     border-radius: 30px 30px 0px 0px ;
     
 }
@@ -385,23 +274,25 @@ li{
     background-color: #ffffff;
     font-weight: bolder;
     cursor: pointer;
-    width: 60px;
+    width: 70px;
     height: 20px;
     z-index: 1;
     margin-left: 12px;
-    padding: 15px 12px 15px 10px;   
+    margin-top: 10px;
+    padding: 10px 10px 20px 10px;   
 }
 .nov1{
     color: red;
     position: absolute;
-    margin-top: 170px;
+    margin-top: 230px;
     margin-left: 20px;
     text-align: center;
     font-size: 30px;
 }
 .des2{
-    margin-top: 100px;
-    margin-left: 20px;
+    margin-top: 120px;
+    margin-left: 10px;
+    font-size: 14px;
 }
 .des2 h2{
     margin-top: 110px;
@@ -410,20 +301,19 @@ li{
 .jan2{
     background-color: #ffffff;
     height: 350px;
-    width: 420px;
-    margin-left: 750px;
+    width: 350px;
+    margin-left: 450px;
     border-radius: 30px;
-    margin-top: 100px;
+    margin-top: 20px;
     display: flex;
 }
 
 .jan2 img{
-    width: 420px;
+    width: 350px;
     height: 200px;
     position: absolute;
-    margin-left:-350px;
+    /* margin-left: -470px; */
     z-index: 1;
-    margin-top: 400px;
     border-radius: 30px 30px 0px 0px ;
     
 }
@@ -434,23 +324,24 @@ li{
     background-color: #ffffff;
     font-weight: bolder;
     cursor: pointer;
-    width: 60px;
+    width: 70px;
     height: 20px;
     z-index: 1;
     margin-left: 12px;
-    padding: 15px 12px 15px 10px;   
+    margin-top: 10px;
+    padding: 10px 10px 20px 10px;     
 }
 .nov2{
     color: red;
     position: absolute;
-    margin-top: 170px;
-    margin-left: 20px;
+    margin-top: 230px;
+    margin-left: 10px;
     text-align: center;
     font-size: 30px;
 }
 .des3{
-    margin-top: 100px;
-    margin-left: 20px;
+    margin-top: 120px;
+    font-size: 14px;
 }
 .des3 h2{
     margin-top: 110px;
@@ -459,20 +350,19 @@ li{
 .jan3{
     background-color: #ffffff;
     height: 350px;
-    width: 420px;
-    margin-left: 1250px;
+    width: 350px;
+    margin-left: 850px;
     border-radius: 30px;
-    margin-top: -360px;
+    margin-top: -350px;
     display: flex;
 }
 
 .jan3 img{
-    width: 420px;
+    width: 350px;
     height: 200px;
     position: absolute;
-    margin-left: 150px;
+    
     z-index: 1;
-    margin-top: 400px;
     border-radius: 30px 30px 0px 0px ;
     
 }
@@ -483,269 +373,34 @@ li{
     background-color: #ffffff;
     font-weight: bolder;
     cursor: pointer;
-    width: 60px;
+    width: 70px;
     height: 20px;
     z-index: 1;
     margin-left: 12px;
-    padding: 15px 12px 15px 10px;   
+    margin-top: 10px;
+    padding: 10px 10px 20px 10px;   
 }
 .nov3{
     color: red;
     position: absolute;
-    margin-top: 170px;
+    margin-top: 230px;
     margin-left: 20px;
     text-align: center;
     font-size: 30px;
 }
 .des4{
-    margin-top: 100px;
-    margin-left: 20px;
+    margin-top: 120px;
+    margin-left: 10px;
+    font-size: 14px;
 }
 .des4 h2{
     margin-top: 110px;
 }
-@media only screen and (max-width: 600px)
-{
-    .upcoming{
-        background-color: black;
-        top:750px;
-        width: 100%;
-        position: absolute;
-        height: 2000px;
-    }
-    .upcoming h1{
-        color: #ffffff;
-        margin-top: 220px;
-        text-align: center;
-        font-size: 20px;
-    }
-    .line{
-        width: 200px;
-    }
-    .meetingcat{
-        background-color: #ffffff;
-        height: 320px;
-        width: 300px;
-        margin-left: 150px;
-        position: absolute;
-        border-radius: 30px;
-        margin-top: 150px;
-    }
-    .status{
-        color: black;
-        font-size: 15px;  
-        text-align: center;
-        
-    }
-    .button2{
-        border-radius: 25px;
-        font-size: 12px;
-        color:#ffffff;
-        background-color: red;
-        padding: 10px 10px 10px 5px;   
-        width: 200px;   
-        margin-left: 50px;
-        font-weight: bolder;
-        cursor: pointer;
-    }
-    .jan{
-        background-color: #ffffff;
-        height: 300px;
-        width: 250px;
-        margin-left: -130px;
-        border-radius: 30px;
-        margin-top: 100px;
-        display: flex;
-    }
-    .jan img{
-        width: 250px;
-        height: 150px;
-        position: absolute;
-        margin-left: -350px;
-        z-index: 1;
-        margin-top: 395px;
-        border-radius: 30px 30px 0px 0px ;
-    }
-    .button3{
-        border-radius: 25px;
-        font-size: 12px;
-        color:#000000;
-        background-color: #ffffff;
-        font-weight: bolder;
-        cursor: pointer;
-        width: 60px;
-        height: 20px;
-        z-index: 1;
-        margin-left: 12px;
-        padding: 15px 12px 15px 10px;   
-    }
-    .nov{
-        color: red;
-        position: absolute;
-        margin-top: 170px;
-        margin-left: 20px;
-        text-align: center;
-        font-size: 15px;
-    }
-    .des1{
-        margin-top: 100px;
-        margin-left: 10px;
-    }
-    .des1 h2{
-        margin-top: 90px;
-        font-size: 12px;
-    }
-    .jan1{
-        background-color: #ffffff;
-        height: 300px;
-        width: 250px;
-        margin-left: 150px;
-        border-radius: 30px;
-        margin-top: -300px;
-        display: flex;
-    }
-    .jan1 img{
-        width: 250px;
-        height: 150px;
-        position: absolute;
-        margin-left: -70px;
-        z-index: 1;
-        margin-top: 395px;
-        border-radius: 30px 30px 0px 0px ;
-    }
-    .button4{
-        border-radius: 25px;
-        font-size: 12px;
-        color:#000000;
-        background-color: #ffffff;
-        font-weight: bolder;
-        cursor: pointer;
-        width: 60px;
-        height: 20px;
-        z-index: 1;
-        margin-left: 12px;
-        padding: 15px 12px 15px 10px;   
-    }
-    .nov1{
-        color: red;
-        position: absolute;
-        margin-top: 170px;
-        margin-left: 20px;
-        text-align: center;
-        font-size: 15px;
-    }
-    .des2{
-        margin-top: 80px;
-        margin-left: 10px;
-    }
-    .des2 h2{
-        margin-top: 110px;
-        font-size: 12px;
-    }
-    .jan2{
-        background-color: #ffffff;
-        height: 300px;
-        width: 250px;
-        margin-left: -130px;
-        border-radius: 30px;
-        margin-top: 50px;
-        display: flex;
-    }
-    
-    .jan2 img{
-        width: 250px;
-        height: 150px;
-        position: absolute;
-        margin-left: -350px;
-        z-index: 1;
-        margin-top: 745px;
-        border-radius: 30px 30px 0px 0px ;
-        
-    }
-    .button5{
-        border-radius: 25px;
-        font-size: 15px;
-        color:#000000;
-        background-color: #ffffff;
-        font-weight: bolder;
-        cursor: pointer;
-        width: 60px;
-        height: 20px;
-        z-index: 1;
-        margin-left: 12px;
-        padding: 15px 12px 15px 10px;   
-    }
-    .nov2{
-        color: red;
-        position: absolute;
-        margin-top: 150px;
-        margin-left: 20px;
-        text-align: center;
-        font-size: 15px;
-    }
-    .des3{
-        margin-top: 60px;
-        margin-left: 10px;
-    }
-    .des3 h2{
-        margin-top: 110px;
-        font-size: 12px;
-    
-    }
-    .jan3{
-        background-color: #ffffff;
-        height: 300px;
-        width: 250px;
-        margin-left: 150px;
-        border-radius: 30px;
-        margin-top: -300px;
-        display: flex;
-    }
-    
-    .jan3 img{
-        width: 250px;
-        height: 150px;
-        position: absolute;
-        margin-left: -70px;
-        z-index: 1;
-        margin-top: 745px;
-        border-radius: 30px 30px 0px 0px ;
-    }
-    .button6{
-        border-radius: 25px;
-        font-size: 15px;
-        color:#000000;
-        background-color: #ffffff;
-        font-weight: bolder;
-        cursor: pointer;
-        width: 60px;
-        height: 20px;
-        z-index: 1;
-        margin-left: 12px;
-        padding: 15px 12px 15px 10px;   
-    }
-    .nov3{
-        color: red;
-        position: absolute;
-        margin-top: 150px;
-        margin-left: 20px;
-        text-align: center;
-        font-size: 15px;
-    }
-    .des4{
-        margin-top: 60px;
-        margin-left: 10px;
-    }
-    .des4 h2{
-        margin-top: 110px;
-        font-size: 12px;
-    }
-}
+
 .degree {
     background-size:cover;
     position: relative;
-    height: 1000px;
-    margin-top: 1257px;
+    height: 700px;
     opacity: 0.75;
     background-image: url(images/GD.jpg);
     background-repeat: no-repeat;
@@ -756,31 +411,32 @@ li{
     opacity: 0.8;
     position: absolute;
     margin-top: 90px;
-    margin-left: 90px;
-    width: 600px;
+    margin-left: 50px;
+    width: 500px;
     height:250px;
     padding: 30px 30px 30px 30px;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 .degree1 h1{
-    font-size: 25x;
+    font-size: 25px;
     font-weight: bolder;
     justify-content: center;
 }
 .degree1 p{
-    font-size:large;
+    font-size:12px;
     justify-content: center;
     font-weight: bolder;
+    margin-top: 30px;
     
 }
 .button7{
     border-radius: 25px;
-    font-size: 20px;
+    font-size: 15px;
     color:#ffffff;
     background-color: red;
-    padding: 15px 15px 15px 40px;   
+    padding: 10px 10px 10px 25px;   
     width: 190px;   
-    margin-left: 30px;
+    
     font-weight: bolder;
     cursor: pointer;
     margin-top: 30px;
@@ -789,41 +445,42 @@ li{
     background-color:#ffffff;
     opacity: 0.8;
     position: absolute;
-    margin-top: 500px;
-    margin-left: 90px;
-    width: 600px;
+    margin-top: 400px;
+    margin-left: 50px;
+    width: 500px;
     height:250px;
     padding: 30px 30px 30px 30px;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 .degree3 h1{
-    font-size: 25x;
+    font-size: 25px;
     font-weight: bolder;
     justify-content: center;
 }
 .degree3 p{
-    font-size:large;
+    font-size:12px;
     justify-content: center;
     font-weight: bolder;
+    margin-top: 30px;
     
 }
 .button8{
     border-radius: 25px;
-    font-size: 20px;
+    font-size: 15px;
     color:#ffffff;
-    background-color:yellow;
-    padding: 15px 15px 15px 40px;   
+    background-color: red;
+    padding: 10px 10px 10px 25px;   
     width: 190px;   
-    margin-left: 30px;
+    
     font-weight: bolder;
     cursor: pointer;
-    margin-top: 30px;   
+    margin-top: 30px;
 }
 .aboutedu{
     background-color: #ffffff;
-    height: 680px;
+    height: 560px;
     width: 600px;
-    margin-left: 900px;
+    margin-left: 700px;
     position: absolute;
     border-radius: 30px;
     margin-top: 90px;
@@ -837,54 +494,58 @@ li{
     font-weight: 900;
 }
 .aboutedu p{
-    font-size: 20px;
-    padding-left: 50px;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-top: 20px;
 }
 .aboutedu1 i{
     margin-left: 40px;
 }
 .aboutedu2 h4{
     font-size: 25px;
-    padding-left: 35px;
+    padding-left: 30px;
     font-weight: 900;
+    margin-top: 20px;
 }
 .aboutedu2 p{
-    font-size: 20px;
-    padding-left: 50px;
-    margin-top: 10px;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-top: 20px;
 }
 .aboutedu2 i{
    margin-left: 115px;
 }
 .aboutedu3 h4{
     font-size: 25px;
-    padding-left: 35px;
+    padding-left: 30px;
     font-weight: 900;
+    margin-top: 20px;
 }
 .aboutedu3 p{
-    font-size: 20px;
-    padding-left: 50px;
-    margin-top: 10px;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-top: 20px;
 }
 .aboutedu3 i{
    margin-left: 175px;
 }
 .aboutedu4 h4{
     font-size: 25px;
-    padding-left: 35px;
+    padding-left: 30px;
     font-weight: 900;
+    margin-top: 20px;
 }
 .aboutedu4 p{
-    font-size: 20px;
-    padding-left: 50px;
-    margin-top: 10px;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-top: 20px;
 }
 .aboutedu4 i{
    margin-left: 130px;
 }
 .courses{
     background-color: #000000;
-    height: 700px;
+    height: 600px;
 }
 .cou{
     color: #ffffff;
@@ -895,18 +556,15 @@ li{
 }
 .courses1{
     background-color: #ffffff;
-    width: 360px;
-    height: 240px;
-    box-sizing: border-box;
-    margin-left: 70px;
+    width: 250px;
+    height: 250px;
+    margin-left: 30px;
     margin-top: 10%;
 }
 .pencil img{
-    width: 360px;
+    width: 250px;
     height: 150px;
-    margin-top: 195.9%;
-    margin-left: -1029px;
-    position: absolute  ;
+    position: absolute;
 }
 .pencil{
     color: black;
@@ -914,12 +572,12 @@ li{
 .pencil p{
     text-align: center;
     font-size: 20px;
-    padding-top: 100px;
+    padding-top: 150px;
     font-weight: bolder;
 }
 .pencil span{
-    margin-left: 170px;
     font-size: 20px;
+    margin-left: 50px;
     font-weight: bolder;
     color: red;
 }
@@ -929,17 +587,15 @@ li{
 }
 .courses2{
     background-color: #ffffff;
-    width: 360px;
-    height: 230px;
+    width: 250px;
+    height: 250px;
     box-sizing: border-box;
-    margin-left: 440px;
-    margin-top: -200px;
+    margin-left: 310px;
+    margin-top: -220px;
 }
 .pencil1 img{
-    width: 360px;
+    width: 250px;
     height: 150px;
-    margin-top: 195.9%;
-    margin-left: -590px;
     position: absolute  ;
 }
 .pencil1{
@@ -948,11 +604,11 @@ li{
 .pencil1 p{
     text-align: center;
     font-size: 20px;
-    padding-top: 85px;
+    padding-top: 150px;
     font-weight: bolder;
 }
 .pencil1 span{
-    margin-left: 170px;
+    margin-left: 50px;
     font-size: 20px;
     font-weight: bolder;
     color: red;
@@ -963,17 +619,15 @@ li{
 }
 .courses3{
     background-color: #ffffff;
-    width: 360px;
-    height: 220px;
+    width: 250px;
+    height: 250px;
     box-sizing: border-box;
-    margin-left: 880px;
-    margin-top: -220px;
+    margin-left: 610px;
+    margin-top: -250px;
 }
 .pencil2 img{
-    width: 360px;
+    width: 250px;
     height: 150px;
-    /* margin-top: 195.9%; */
-    margin-left: -150px;
     position: absolute  ;
 }
 .pencil2{
@@ -981,12 +635,12 @@ li{
 }
 .pencil2 p{
     text-align: center;
-    font-size: 20px;
-    padding-top: 60px;
+    font-size: 15px;
+    padding-top: 150px;
     font-weight: bolder;
 }
 .pencil2 span{
-    margin-left: 170px;
+    margin-left: 50px;
     font-size: 20px;
     font-weight: bolder;
     color: red;
@@ -994,21 +648,18 @@ li{
 .pencil2 i{
     margin-left: 10px;
     color: yellow;
-    margin-top: 20px;
 }
 .courses4{
     background-color: #ffffff;
-    width: 360px;
-    height: 180px;
+    width: 250px;
+    height: 250px;
     box-sizing: border-box;
-    margin-left:1310px;
-    margin-top: -220px;
+    margin-left:900px;
+    margin-top: -250px;
 }
 .pencil3 img{
-    width: 360px;
+    width: 250px;
     height: 150px;
-    margin-top: 195.9%;
-    margin-left: 280px;
     position: absolute  ;
 }
 .pencil3{
@@ -1017,11 +668,11 @@ li{
 .pencil3 p{
     text-align: center;
     font-size: 20px;
-    padding-top: 60px;
+    padding-top: 160px;
     font-weight: bolder;
 }
 .pencil3 span{
-    margin-left: 170px;
+    margin-left: 50px;
     font-size: 20px;
     font-weight: bolder;
     color: red;
@@ -1029,12 +680,13 @@ li{
 .pencil3 i{
     margin-left: 10px;
     color: yellow;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .facts{
     background-size:cover;
     position: relative;
-    height: 890px;
+    height: 790px;
+    width: 100%;
     opacity: 0.7;
     background-image: url(images/student.jpg);
     background-repeat: no-repeat;
@@ -1042,105 +694,106 @@ li{
 }
 .few {
     font-size: 50px;
-    margin-left: 90px;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .few h3 {
     margin-left: 110px;
     color: #ffffff;
     font-weight: bolder;
+    font-size: 50px;
 }
 .s1{
     background-color:#ffffff;
     border-radius: 30px;
-    height: 200px;
+    height: 170px;
     opacity: 0.7;
-    width: 350px;
-    margin-left: 100px;
+    width: 300px;
+    margin-left: 110px;
 }
 .s2 span{
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bolder;
     color: rgb(255, 153, 51);
-    margin-top: -200px;
+    margin-top: -160px;
     margin-left: 200px;
     position: absolute;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .s2 p{
     font-size: 30px;
     position: absolute;
     margin-top: -100px;
     padding-top: 20px;
-    margin-left: 170px;
+    margin-left: 140px;
     font-weight: bolder;
 }
 .s3{
     background-color:#ffffff;
     border-radius: 30px;
-    height: 200px;
+    height: 170px;
     opacity: 0.7;
-    width: 350px;
-    margin-left: 500px;
-    margin-top: -160px;
+    width: 300px;
+    margin-left: 450px;
+    margin-top: -110px;
 }
 .s4 span{
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bolder;
     color: rgb(255, 153, 51);
-    margin-top: -200px;
-    margin-left: 600px;
+    margin-top: -170px;
+    margin-left: 500px;
     position: absolute;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .s4 p{
     font-size: 30px;
     position: absolute;
     margin-top: -100px;
     padding-top: 20px;
-    margin-left: 590px;
+    margin-left: 500px;
     font-weight: bolder;
 }
 .s5{
     background-color:#ffffff;
     border-radius: 30px;
-    height: 200px;
+    height: 170px;
     opacity: 0.7;
-    width: 350px;
-    margin-left: 100px;
+    width: 290px;
+    margin-left: 110px;
+    margin-top: 20px;
 }
 .s6 span{
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bolder;
     color: rgb(255, 153, 51);
-    margin-top: -200px;
+    margin-top: -170px;
     margin-left: 200px;
     position: absolute;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .s6 p{
     font-size: 30px;
     position: absolute;
     margin-top: -100px;
     padding-top: 20px;
-    margin-left: 170px;
+    margin-left: 150px;
     font-weight: bolder;
 }
 .s7{
     background-color:#ffffff;
     border-radius: 30px;
-    height: 200px;
+    height: 170px;
     opacity: 0.7;
-    width: 350px;
-    margin-left: 500px;
-    margin-top: -160px;
+    width: 300px;
+    margin-left: 450px;
+    margin-top: -150px;
 }
 .s8 span{
     font-size: 80px;
     font-weight: bolder;
     color: rgb(255, 153, 51);
     margin-top: -200px;
-    margin-left: 620px;
+    margin-left: 550px;
     position: absolute;
     padding-top: 20px;
 }
@@ -1149,18 +802,18 @@ li{
     position: absolute;
     margin-top: -100px;
     padding-top: 20px;
-    margin-left: 620px;
+    margin-left: 550px;
     font-weight: bolder;
 }
 .s9{
-    margin-left: 1000px;
+    margin-left: 800px;
     background-image: url(images/painter.jpeg);
     background-repeat: no-repeat;
-    border-radius: 20%;
+    border-radius: 16px;
     position: absolute;
-    margin-top: -600px;
-    width: 612px;
-    height: 408px;
+    margin-top: -450px;
+    width: 400px;
+    height: 400px;
     opacity: 0.89;
 }
 .s9 i{
@@ -1170,26 +823,22 @@ li{
 }
 .touch{
     background-color:#000000;
-    /* margin-top: -50px; */
-    margin-left: -20px;
     height: 800px;
-    width: 1819px;
-    
+    width: 100%;
 }
 .touch1{
     background-color: #ffffff;
-    width: 1000px;
+    width: 890px;
     height: 450px;
     position: absolute;
-    margin-left: 100px;
+    margin-left: 20px;
     margin-top: 200px;
     border-radius: 30px;
 }
 .form{
     font-size: 40px;
-    margin-left: 600px;
+    margin-left: 40px;
     color: black;
-    margin-left: 60px;
     
 }
 .form h3{
@@ -1210,19 +859,23 @@ li{
 }
 .number{
     background-color: #b30000;
-    height: 580px;
+    height: 520px;
     width: 370px;
     border-radius: 30px;
-    margin-left: 1200px;
+    margin-left: 950px;
     position: absolute;
-    margin-top: 150px ;
+    margin-top: 170px ;
 }
 .number1{
     color: #ffffff;
     font-size: 27px;
     text-align: center;
-    padding: 0;
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 .number1 h5{
     margin-top: -28px;
-}
+    padding: 40px 40px 40px 40px;   
+    
+}   
