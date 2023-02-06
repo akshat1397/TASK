@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <script>
+        let n = 5;
+        for (let i = 1; i <= n; i++) {           //row  i=1 start
+            for (let j = 1; j <= n; j++) {       //coloumn print j=1 ; j=2; j=3; j=4; j=5    
+                document.write("*");             //  * * * * * 
+            }
+            document.write("<br>")               // next row
+        }
+    </script> -->
+
+
+
+    <script>
+        let n = 5;
+        for (let i = 1; i <= n; i++) {           //row  i=1 start then i=2 upto i=5
+            for (let j = 1; j <= i; j++) {       //coloumn print j=1; then j=2 upto j=5 
+                document.write("*");             //  * 
+                                                 //  *  *
+                                                 //  *  *  *
+                                                 //  *  *  *  *
+                                                 //  *  *  *  *  *
+            }
+            document.write("<br>")               // next row
+        }
+    </script>
+</body>
+
+</html>
